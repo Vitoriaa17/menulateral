@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  background-color:aliceblue;
+  color: #073d3d;
+  background-image: url("fundo.jpg");
+  background-size: cover;
+
+}
+
+.sidebar {
+  width: 270px;
+  height: 100vh;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  box-shadow: 3px 0 10px #053552;
+}
+
+
+.logo img {
+  width: 60px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.menu-item {
+  width: 80%;
+  padding: 15px 10px;
+  margin: 5px 0;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 8px;
+  color: #333;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.menu-item:hover {
+  background-color: #053552;
+  color: white;
+}
+
+.profile {
+  margin-bottom: 0px;
+  margin: 2px;
+}
+
+.titulo{
+    margin-bottom: 0px;
+}
+
+.username {
+    margin-top: 0;
+}
+
+.profile img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 35px;
+}
